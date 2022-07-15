@@ -19,11 +19,11 @@
     "environment": "*",
     "entrypoints": {
       "main": [
-        "com.example.examplemod.ExampleMod"
+        "galena.galenacapes.GalenaCapes"
       ]
     },
     "mixins": [
-      "modid.mixins.json"
+      "galenacapes.fabric.mixins.json"
     ],
   
     "depends": {

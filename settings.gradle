@@ -12,5 +12,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'MultiLoader'
+rootProject.name = 'Galena-Capes'
 include("Common", "Fabric", "Forge")

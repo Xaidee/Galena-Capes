@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package galena.galenacapes.platform.services;
 
 public interface IPlatformHelper {
 

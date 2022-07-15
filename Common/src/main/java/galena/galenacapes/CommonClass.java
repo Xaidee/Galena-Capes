@@ -1,6 +1,6 @@
-package com.example.examplemod;
+package galena.galenacapes;
 
-import com.example.examplemod.platform.Services;
+import galena.galenacapes.platform.Services;
 import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;

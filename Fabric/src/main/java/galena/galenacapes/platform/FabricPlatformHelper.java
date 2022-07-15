@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package galena.galenacapes.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import galena.galenacapes.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {
