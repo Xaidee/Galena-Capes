@@ -17,16 +17,16 @@ public class Constants {
 			"Xaidee"
 	);
 	/// Patreon member capes
-	public static final List<String> OPatreons = List.of( // Oreganized
+	public static final List<String> OPatreons = List.of( // Oreganized Cape
 
 	);
-	public static final List<String> OFPatreons = List.of( // Overweight Farming
+	public static final List<String> OFPatreons = List.of( // Overweight Farming Cape
 
 	);
-	public static final List<String> GPatreons = List.of( // Galosphere
+	public static final List<String> GPatreons = List.of( // Galosphere Cape
 
 	);
-	public static final List<String> CPatreons = List.of( // ???
+	public static final List<String> CPatreons = List.of( // ??? Cape
 
 	);
 }
