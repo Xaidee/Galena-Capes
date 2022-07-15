@@ -26,7 +26,20 @@ public abstract class AbstractClientPlayerMixin {
         if(!(Objects.requireNonNull(this.getPlayerInfo()).getProfile().getId().equals(Minecraft.getInstance().player.getUUID()))) {
             cir.setReturnValue(null);
         } else {
-            cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/dev.png"));
+            String username = this.getPlayerInfo().getProfile().getName();
+
+            for (int i = 0; Constants.Devs.size() > i; i++) {
+                if (Constants.Devs.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/dev.png"));
+            }
+            for (int i = 0; Constants.OPatreons.size() > i; i++) {
+                if (Constants.OPatreons.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/oreganized.png"));
+            }
+            for (int i = 0; Constants.OFPatreons.size() > i; i++) {
+                if (Constants.OFPatreons.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/overweightfarming.png"));
+            }
+            for (int i = 0; Constants.GPatreons.size() > i; i++) {
+                if (Constants.GPatreons.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/galosphere.png"));
+            }
         }
     }
 }
