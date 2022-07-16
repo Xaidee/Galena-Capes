@@ -4,17 +4,17 @@
     "version": "${version}",
   
     "name": "Galena Capes",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "description": "A client side mod used to display unique capes on our lovely patreon members and developers!",
     "authors": [
       "Xaidee as part of Team Galena"
     ],
     "contact": {
-      "homepage": "https://fabricmc.net/",
-      "sources": "https://github.com/FabricMC/fabric-example-mod"
+      "homepage": "https://discord.gg/JmMf7CEKsx",
+      "sources": "https://github.com/Xaidee/Galena-Capes"
     },
   
-    "license": "CC0-1.0",
-    "icon": "assets/galenacapes/icon.png",
+    "license": "Unlicense",
+    "icon": "icon.png",
   
     "environment": "*",
     "entrypoints": {

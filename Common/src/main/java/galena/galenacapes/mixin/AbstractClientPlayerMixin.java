@@ -28,8 +28,8 @@ public abstract class AbstractClientPlayerMixin {
         } else {
             String username = this.getPlayerInfo().getProfile().getName();
 
-            for (int i = 0; Constants.Devs.size() > i; i++) {
-                if (Constants.Devs.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/dev.png"));
+            for (int i = 0; Constants.Dev.size() > i; i++) {
+                if (Constants.Dev.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/dev.png"));
             }
             for (int i = 0; Constants.OPatreons.size() > i; i++) {
                 if (Constants.OPatreons.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/oreganized.png"));
@@ -37,8 +37,14 @@ public abstract class AbstractClientPlayerMixin {
             for (int i = 0; Constants.OFPatreons.size() > i; i++) {
                 if (Constants.OFPatreons.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/overweightfarming.png"));
             }
-            for (int i = 0; Constants.GPatreons.size() > i; i++) {
-                if (Constants.GPatreons.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/galosphere.png"));
+            for (int i = 0; Constants.GPatreonsBlue.size() > i; i++) {
+                if (Constants.GPatreonsBlue.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/galosphere_blue.png"));
+            }
+            for (int i = 0; Constants.GPatreonsYellow.size() > i; i++) {
+                if (Constants.GPatreonsYellow.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/galosphere_yellow.png"));
+            }
+            for (int i = 0; Constants.CPatreons.size() > i; i++) {
+                if (Constants.CPatreons.get(i).equals(username)) cir.setReturnValue(new ResourceLocation(Constants.MOD_ID, "textures/capes/coopperative.png"));
             }
         }
     }

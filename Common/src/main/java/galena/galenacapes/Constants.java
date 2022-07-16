@@ -12,21 +12,25 @@ public class Constants {
 	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
 
 	// List of usernames apart of Team Galena
-	public static final List<String> Devs = List.of(
-			"Dev",
-			"Xaidee"
+	public static final List<String> Dev = List.of(
+			"Dev"
 	);
 	/// Patreon member capes
 	public static final List<String> OPatreons = List.of( // Oreganized Cape
-
+			"Xaidee",
+			"Bi_nome",
+			"keviikk"
 	);
 	public static final List<String> OFPatreons = List.of( // Overweight Farming Cape
 
 	);
-	public static final List<String> GPatreons = List.of( // Galosphere Cape
+	public static final List<String> GPatreonsBlue = List.of( // Blue Galosphere Cape
 
 	);
-	public static final List<String> CPatreons = List.of( // ??? Cape
+	public static final List<String> GPatreonsYellow = List.of( // Yellow Galosphere Cape
 
+	);
+	public static final List<String> CPatreons = List.of( // Cooperative Cape
+			"Axeceros"
 	);
 }
