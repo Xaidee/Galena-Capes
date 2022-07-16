@@ -1,6 +1,6 @@
 
 modLoader="javafml" #mandatory
-loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="Unlicense"
 
 [[mods]] #mandatory
@@ -18,12 +18,12 @@ A client side mod used to display unique capes on our lovely patreon members and
 [[dependencies.galenacapes]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[38,)" #mandatory
+    versionRange="[41,)" #mandatory
     ordering="NONE"
     side="BOTH"
 [[dependencies.galenacapes]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18,1.19)"
+    versionRange="[1.19,1.20)"
     ordering="NONE"
     side="BOTH"
